@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorButtonNormal"
+    tools:context=".registrar">
+
+    <EditText
+        android:id="@+id/reg_modelo"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toEndOf="@+id/lb_modelo"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <EditText
+        android:id="@+id/reg_codigo"
+        android:layout_width="155dp"
+        android:layout_height="22dp"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <EditText
+        android:id="@+id/reg_color"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="56dp"
+        app:layout_constraintStart_toEndOf="@+id/lb_color"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/lb_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Color"
+        android:textColor="#FF000000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/lb_modelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Modelo"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:id="@+id/lb_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Cargo de Persona"
+        android:textColor="#FF000000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <EditText
+        android:id="@+id/reg_chasis"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="52dp"
+        app:layout_constraintStart_toEndOf="@+id/lb_chasis"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <EditText
+        android:id="@+id/reg_persona"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="68dp"
+        app:layout_constraintStart_toEndOf="@+id/lb_person"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/lb_chasis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Chasis del vehiculo"
+        android:textColor="#FF000000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <TextView
+        android:id="@+id/lb_año"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Año de Fabricación"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <EditText
+        android:id="@+id/reg_fabricacion"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="344dp"
+        android:layout_height="156dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@mipmap/logokiapng"
+        tools:layout_editor_absoluteX="33dp" />
+
+    <TextView
+        android:id="@+id/lb_ingreso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Fecha de Ingreso"
+        android:textColor="#FF000000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <EditText
+        android:id="@+id/reg_ingreso"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <Button
+        android:id="@+id/btn_registrar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLVER"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Codigo"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+</android.support.constraint.ConstraintLayout>

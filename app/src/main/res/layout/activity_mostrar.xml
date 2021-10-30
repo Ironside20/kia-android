@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorButtonNormal"
+    tools:context=".mostrar">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Codigo"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <Button
+        android:id="@+id/btn_regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLVER"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <TextView
+        android:id="@+id/lb_modelo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Modelo"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <TextView
+        android:id="@+id/lb_ingreso2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Fecha de Ingreso"
+        android:textColor="#FF000000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <EditText
+        android:id="@+id/mos_ingreso"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <EditText
+        android:id="@+id/mos_color"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="332dp"
+        android:ems="10"
+        android:hint=" "
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/lb_person2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Cargo de Persona"
+        android:textColor="#FF000000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <EditText
+        android:id="@+id/mos_chasis"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:hint=" "
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.516" />
+
+    <EditText
+        android:id="@+id/mos_persona"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:hint=" "
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <TextView
+        android:id="@+id/lb_chasis2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Chasis del vehiculo"
+        android:textColor="#FF000000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <TextView
+        android:id="@+id/lb_año2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Año de Fabricación"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <EditText
+        android:id="@+id/mos_año"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <EditText
+        android:id="@+id/mos_modelo"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:hint=" "
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <TextView
+        android:id="@+id/lb_color2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headland_one"
+        android:text="Color"
+        android:textColor="#FF000000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="344dp"
+        android:layout_height="156dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081"
+        app:srcCompat="@mipmap/logokiapng"
+        tools:layout_editor_absoluteX="33dp" />
+
+    <Button
+        android:id="@+id/btn_mostrar2"
+        android:layout_width="98dp"
+        android:layout_height="40dp"
+        android:text="MOSTRAR"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+</android.support.constraint.ConstraintLayout>
